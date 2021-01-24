@@ -2,12 +2,21 @@
 .tour {
     background-color: #fdd835;
 }
+.tc-w h1{
+    color: white;
+    padding: 1rem;
+
+}
+.tc-w h3{
+    color: white;
+    padding: 1rem;
+    opacity: .7;
+}
 
 /* icon */
 .icon-c {
     background-color: white;
     box-shadow: 0 1rem 0.5rem 0 #e0e0e0;
-    /* box-shadow: 0 2px 3px rgba(6, 6, 7, 0.09)!important; */
 }
 .icon {
     font-size: 2rem;
@@ -21,6 +30,9 @@
 }
 
 /* content */
+p {
+    margin-bottom: 0;
+}
 .con-c {
     background-color: #fafafa;
 }
@@ -31,14 +43,12 @@
     border-radius: 4px;
 }
 .ctt-1 button img {
-    width: 1rem;
+    width: 1.5rem;
+    float: left;
 }
 .ctt-1 img {
     width: 100%;
-}
-.btn-1 {
-    padding: .5rem;
-    display: inline;
+    border-radius: 4px;
 }
 .btn-1, .btn-2 {
     width: 100%;
@@ -49,15 +59,20 @@
 }
 .btn-1 p {
     text-align: center;
-    /* float: right; */
-    /* position: relative; */
     display: inline;
-    margin: 0 auto;
-    /* vertical-align: middle; */
 }
-.btn-2 {
-    width: 90%;
+.mhc:hover {
+    box-shadow: 0 0 0.5em 0 #2979ff;
 }
-.row ul{
-    list-style: none;
+
+/* footer */
+.mt-5 a {
+    text-decoration: none;
+    color: #e65100;
+}
+.mt-5 h2, .mt-5 address {
+    color: #616161;
+}
+.mt-5 p i {
+    color:  #e65100;
 }
