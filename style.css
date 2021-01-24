@@ -1,0 +1,63 @@
+/* primary */
+.tour {
+    background-color: #fdd835;
+}
+
+/* icon */
+.icon-c {
+    background-color: white;
+    box-shadow: 0 1rem 0.5rem 0 #e0e0e0;
+    /* box-shadow: 0 2px 3px rgba(6, 6, 7, 0.09)!important; */
+}
+.icon {
+    font-size: 2rem;
+}
+.icon-t h2 {
+    font-size: 1rem;
+    font-weight: bold;
+}
+.icon-t h3 {
+    font-size: .8rem;
+}
+
+/* content */
+.con-c {
+    background-color: #fafafa;
+}
+.ctt-1 {
+    background-color: white;
+    box-shadow: 0 0 0.5rem 0 #e0e0e0;
+    padding: 1rem;
+    border-radius: 4px;
+}
+.ctt-1 button img {
+    width: 1rem;
+}
+.ctt-1 img {
+    width: 100%;
+}
+.btn-1 {
+    padding: .5rem;
+    display: inline;
+}
+.btn-1, .btn-2 {
+    width: 100%;
+    border: none;
+}
+.btn-1 img {
+    display: inline-block;
+}
+.btn-1 p {
+    text-align: center;
+    /* float: right; */
+    /* position: relative; */
+    display: inline;
+    margin: 0 auto;
+    /* vertical-align: middle; */
+}
+.btn-2 {
+    width: 90%;
+}
+.row ul{
+    list-style: none;
+}
