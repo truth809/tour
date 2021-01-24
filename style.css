@@ -1,3 +1,6 @@
+body {
+    margin: 0;
+}
 /* primary */
 .tour {
     background-color: #fdd835;
@@ -16,7 +19,7 @@
 /* icon */
 .icon-c {
     background-color: white;
-    box-shadow: 0 1rem 0.5rem 0 #e0e0e0;
+    /* box-shadow: 0 1px 3px rgba(3,0,71,.09)!important; */
 }
 .icon {
     font-size: 2rem;
@@ -27,6 +30,9 @@
 }
 .icon-t h3 {
     font-size: .8rem;
+}
+.mxhi {
+    width: 100%;
 }
 
 /* content */
@@ -63,6 +69,9 @@ p {
 }
 .mhc:hover {
     box-shadow: 0 0 0.5em 0 #2979ff;
+}
+.mxhb {
+    margin: 0 auto;
 }
 
 /* footer */
