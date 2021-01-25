@@ -75,13 +75,29 @@ p {
 }
 
 /* footer */
+footer {
+    background: url(img/footer2.png);
+    background-position: bottom;
+    background-repeat: repeat-x;
+    width: 100%;
+}
 .mt-5 a {
     text-decoration: none;
     color: #e65100;
 }
+.mt-5 h2 {
+    font-size: 1.2rem;
+}
+.mt-5 address {
+    font-size: .8rem;
+}
 .mt-5 h2, .mt-5 address {
     color: #616161;
 }
-.mt-5 p i {
-    color:  #e65100;
+.col-12 p {
+    color:  white;
+    font-size: .8rem;
+}
+.col-12 img {
+    width: 100%;
 }
