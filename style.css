@@ -95,9 +95,11 @@ footer {
     color: #616161;
 }
 .col-12 p {
-    color:  white;
     font-size: .8rem;
 }
 .col-12 img {
     width: 90%;
+}
+.ftc p {
+    color: white;
 }
